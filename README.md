@@ -10,19 +10,23 @@ Installation
 
 ### Install locally
 
-Use `setup.py build` and `setup.py install` to build and install this
-extension, respectively.
-
-The extension name is `file_content`, so you need to add that name to your
-list of Python-Markdown extensions.
-Check [Python-Markdown documentation] for details on how to load
-extensions.
-
-[Python-Markdown documentation]: http://pythonhosted.org/Markdown/extensions/
+```
+git clone https://github.com/PingTrip/python-markdown-file_content.git
+cd python-markdown-file_content
+setup.py build
+setup.py install
+```
 
 Usage
 -----
+The extension name is `file_content` so you need to add that name to your list of Python-Markdown extensions.
+Check [Python-Markdown documentation](http://pythonhosted.org/Markdown/extensions/) for details on how to load extensions.
 
-To pass the extension to Python-Markdown, use `file_content` as extension name.
-For example:
+Example:
+```
+~@C:\filename.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare.
+~@
+```
 
+![Alt text](/../screenshots/example.png?raw=true "Example File Content")
