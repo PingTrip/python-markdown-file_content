@@ -1,0 +1,39 @@
+table.FileListing {
+    width: 91%;
+    font-size: 100%;
+    margin-left: 5%;
+    margin-bottom: .5em;
+    background: #F2F2FF;
+    color: #000000;
+    border: 1px solid #8DB6CD;
+    table-layout: fixed;
+}
+
+table.FileListing tr.fname td {
+    padding: .2em .5em;
+    border-bottom: 1px solid #888888;
+    background-color: #87CEFA;
+    font-family: Monaco,Courier New,monotype;
+    font-size: 11px;
+} 
+
+table.FileListing tr.fcontent td {
+    padding: .7em .5em;
+    white-space: pre;
+    font-family: Monaco,Courier New,monotype;
+    font-size: 11px;
+    line-height: 1.2em;
+}
+
+.fcontentScroller {
+    overflow: auto;
+    width: 100%; 
+    border: 0;
+    font-family: Monaco,Courier New,monotype;
+    font-size: 11px;
+    padding: 0;
+    margin-left: 0;
+    color: #000000;
+    background: #F2F2FF;
+    line-height: 1.2em;
+}
