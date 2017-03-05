@@ -7,9 +7,6 @@ This extension adds file content formating to [Python-Markdown].
 
 Installation
 ------------
-
-### Install locally
-
 ```
 git clone https://github.com/PingTrip/python-markdown-file_content.git
 cd python-markdown-file_content
@@ -28,5 +25,6 @@ Example:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare.
 ~@
 ```
+Results:
 
 ![Alt text](/../screenshots/example.png?raw=true "Example File Content")
